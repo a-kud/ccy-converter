@@ -5,8 +5,7 @@ import { ExchangeRate } from "./ExchangeRate";
 import { getRate } from "../utils/api";
 import { invertRate, round } from "../utils/number";
 import React, { useMemo } from "react";
-
-const REFRESH_INTERVAL = 1000000000;
+import { REFRESH_INTERVAL } from "../constants";
 
 export function Exchanger() {
   const { state, dispatch } = React.useContext(AppContext);
