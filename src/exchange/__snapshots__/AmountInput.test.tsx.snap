@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmountInput renders correctly 1`] = `
+<AmountInput
+  className=""
+  dir="rtl"
+  onChange={[Function]}
+  placeholder=""
+  value="13"
+  width={0}
+/>
+`;

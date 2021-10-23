@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchanger renders correctly 1`] = `
+<div
+  className="border border-3 border-dark"
+>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <div
+      className="d-flex flex-grow-1 justify-content-center align-items-center"
+    >
+      <ExchangeRate
+        data={
+          Object {
+            "base": "USD",
+            "quote": "EUR",
+            "rate": "0",
+          }
+        }
+      />
+    </div>
+    <Button
+      className="btn btn-dark rounded-0"
+      onClick={[Function]}
+    >
+      Exchange
+    </Button>
+  </div>
+  <Memo()
+    amount="100"
+    base={true}
+    currency="EUR"
+    invalid={false}
+    onAccountChange={[Function]}
+    onAmountChange={[Function]}
+    placeholder="Amount to sell"
+    totalAmount="9999"
+  />
+  <Memo()
+    amount=""
+    currency="USD"
+    exchangeRate={
+      Object {
+        "base": "EUR",
+        "quote": "USD",
+        "rate": "Infinity",
+      }
+    }
+    onAccountChange={[Function]}
+    onAmountChange={[Function]}
+    placeholder="Amount to get"
+    totalAmount="9000"
+  />
+</div>
+`;

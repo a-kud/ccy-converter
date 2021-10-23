@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account renders correctly 1`] = `
+<div
+  className="text-white bg-dark py-3"
+  onClick={[Function]}
+>
+  <div
+    className="d-flex align-items-baseline"
+  >
+    <Button
+      className="btn btn-dark bg-dark"
+      onClick={[Function]}
+    >
+      〈
+    </Button>
+    <p>
+      EUR
+    </p>
+    <Button
+      className="btn btn-dark bg-dark"
+      onClick={[Function]}
+    >
+      〉
+    </Button>
+    <div
+      className="d-flex flex-grow-1 justify-content-end w-25"
+    >
+      <span>
+        +
+      </span>
+      <AmountInput
+        className="w-50 border-0 text-light bg-dark"
+        inputRef={
+          Object {
+            "current": null,
+          }
+        }
+        onChange={[MockFunction]}
+        placeholder=""
+        value="10"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex"
+  >
+    <styled.div>
+      <TotalAmount
+        amount="120"
+        currency="EUR"
+      />
+    </styled.div>
+  </div>
+</div>
+`;
